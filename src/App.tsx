@@ -4,9 +4,7 @@ import dockerUrl from "./assets/docker.svg";
 import rollupUrl from "./assets/rollup.svg";
 import typescriptUrl from "./assets/typescript.svg";
 
-interface Props {}
-
-export const App = (props: Props) => {
+export const App = () => {
   return (
     <div className="app">
       <header className="app-header">
