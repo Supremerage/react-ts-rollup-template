@@ -17,7 +17,7 @@ export const App = (props: Props) => {
       </header>
       <div className="content">
         <header className="content-header">
-          <h1>Where to start</h1>
+          <h1>Get Started</h1>
         </header>
         <div className="content-item">
           <h1>Features</h1>
@@ -42,7 +42,7 @@ export const App = (props: Props) => {
             </p>
             <p>
               Both Rollup and Nollup use this file and you can add or remove
-              plugins to your own liking.
+              plugins to fit your own needs.
             </p>
           </div>
         </div>
@@ -50,21 +50,21 @@ export const App = (props: Props) => {
           <h1>Learning resources</h1>
           <ul>
             <li>
-              <img className="icon" src={reactUrl} />
+              <img className="icon" alt="React" src={reactUrl} />
               <a href="https://reactjs.org/docs/getting-started.html">
                 React Documentation
               </a>
             </li>
             <li>
-              <img className="icon" src={rollupUrl} />
+              <img className="icon" alt="Rollup" src={rollupUrl} />
               <a href="https://rollupjs.org/guide/en/">Rollup Documentation</a>
             </li>
             <li>
-              <img className="icon" src={dockerUrl} />
+              <img className="icon" alt="Docker" src={dockerUrl} />
               <a href="https://docs.docker.com/">Docker Documentation</a>
             </li>
             <li>
-              <img className="icon" src={typescriptUrl} />
+              <img className="icon" alt="Typescript" src={typescriptUrl} />
               <a href="https://www.typescriptlang.org/docs/">
                 Typescript Documentation
               </a>
