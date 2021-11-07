@@ -51,25 +51,8 @@ let config = defineConfig({
       }
     }),
     process.env.NODE_ENV === "development" && refresh(),
-  ],
-  watch: {
-    exclude: [
-      "build",
-      "node_modules",
-      "rollupo.config.js",
-      "package.json",
-      ".giitignore",
-      ".babelrc"
-    ]
-  }
+  ]
 });
-
-if (process.env.NODE_ENV === "development") {
-  console.log("DEV MODE");
-  config.plugins = config.plugins.concat([
-    // refresh(),
-  ]);
-}
 
 if (process.env.NODE_ENV === "production") {
   config.plugins = config.plugins.concat([
