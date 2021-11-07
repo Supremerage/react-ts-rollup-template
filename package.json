@@ -39,7 +39,9 @@
   "scripts": {
     "clean": "rimraf build",
     "build": "yarn clean && rollup -c --environment NODE_ENV:production",
-    "start": "nollup -c --hot --port 3000 --content-base public --environment NODE_ENV:development"
+    "start": "nollup -c --hot --port 3000 --content-base public --environment NODE_ENV:development",
+    "lint": "eslint src/**/*.ts src/**/*.tsx",
+    "lint:fix": "eslint --fix src/**/*.ts src/**/*.tsx"
   },
   "browserslist": {
     "production": [
