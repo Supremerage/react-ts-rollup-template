@@ -1,6 +1,6 @@
 # Rollup React Template
 This template is a minimal react template built using [rollup](https://rollupjs.org/guide/en/) instead of CRA's webpack.\
-It aims to provide all the same functionality that Create React App provides, but while still giving you full access the the build configuration.
+It aims to provide all the same functionality that Create React App provides, but while still giving you full access to the build configuration.
 
 By default this template includes:
 - React with Typescript
